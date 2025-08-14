@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario delle attività</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calendar-container">
+        <div class="calendar-header">
+            <button id="prevMonth">&lt;</button>
+            <h2 id="currentMonthYear"></h2>
+            <button id="nextMonth">&gt;</button>
+        </div>
+        <div class="calendar-grid" id="calendarGrid"></div>
+    </div>
+    
+    <div class="tasks-container">
+        <h3>Attività per la data selezionata:</h3>
+        <ul id="taskList"></ul>
+        <div class="task-input-group">
+            <input type="text" id="newTaskInput" placeholder="Aggiungi una nuova attività...">
+            <button id="addTaskButton">Aggiungi</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>    
