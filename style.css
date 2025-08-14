@@ -101,11 +101,17 @@ body {
     gap: 10px;
     margin-top: 15px;
     flex-wrap: wrap;
+    /* Aggiunto per posizionamento */
+    position: relative;
+    z-index: 10;
 }
 
 #newTaskInput {
     padding: 8px;
     flex-grow: 1;
+    /* Aggiunto per risolvere il problema dell'input */
+    position: relative;
+    z-index: 20;
 }
 
 #addTaskButton, .toggle-complete, .delete-task {
